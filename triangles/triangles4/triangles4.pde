@@ -22,7 +22,7 @@ void setup()
     int rows = ceil(HEIGHT/T_RADIUS);
     visited = new int[columns][rows];
     
-    size(600, 400);
+    size(WIDTH, HEIGHT);
     background(BG_COLOR);
     stroke(FG_COLOR);
     
